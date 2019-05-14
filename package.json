@@ -4,13 +4,15 @@
   "description": "playing around with WebPack to learn how to use it.",
   "private": true,
   "scripts": {
+    "repo": "open https://github.com/tmcmaster/webpack-play.git",
+    "site": "open http://tmcmaster.github.io/webpack-play",
     "test": "(cd dist; (sleep 1; open http://localhost:8000/); python -m SimpleHTTPServer 8000;)",
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server --history-api-fallback",
     "prod": "npm run webpack -- --env.mode production --env.presets serviceworker",
     "dev": "npm run webpack-dev-server -- --env.mode development",
     "dev:sw": "npm run webpack-dev-server -- --env.mode development  --env.presets serviceworker",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
