@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/main.1e148571.js"
   },
   {
-    "revision": "a105ea81c6fbd5932caf51232d7cccee",
+    "revision": "e18e46b2d918d8e0a7877cf0fd157afb",
     "url": "/index.html"
-  },
-  {
-    "revision": "e1fd2666c41624563d5f54b012c56acd",
-    "url": "/vendor/custom-elements-es5-adapter.js"
   },
   {
     "revision": "e984e03e40948cb775cf97fce7bf6532",
     "url": "/styles.css"
+  },
+  {
+    "revision": "e1fd2666c41624563d5f54b012c56acd",
+    "url": "/vendor/custom-elements-es5-adapter.js"
   },
   {
     "revision": "c7f3db9007916717a84368850808bdd2",
